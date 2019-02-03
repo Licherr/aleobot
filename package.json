@@ -1,8 +1,4 @@
 {
-“token”: “NDgyMTE4MTM2NDczMzIxNDcy.Dzj33Q.D5ZxGGnMMYoFWJQJ7KNOvrBSrr0”
-}
-
-{
   "name": "aleobot",
   "productName": "aleobot",
   "version": "0.1.0",
@@ -12,19 +8,10 @@
     "name": "Lich"
   },
   "scripts": {
-    "start": "node bot"
+    "start": "bot.js"
   },
   "dependencies": {
-    "discord.js": "^11.4.2",
-    "ffmpeg": "0.0.4",
-    "ffmpeg-binaries": "^4.0.0",
-    "moment": "^2.23.0",
-    "ms": "^2.1.1",
-    "opusscript": "0.0.6",
-    "parse-duration": "^0.1.1",
-    "request": "^2.88.0",
-    "weather-js": "^2.0.0",
-    "yt-search": "^0.4.1",
-    "ytdl-core": "^0.29.1"
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "winston": "^3.2.1"
   }
 }
