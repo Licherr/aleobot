@@ -612,3 +612,7 @@ async function playYT(client, message, args, ops) {
 
   ops.active.set(message.guild.id, data);
 }
+
+if(message.content.includes('aleo')) {
+    message.reply('nigga what the fuck you want?');
+}
