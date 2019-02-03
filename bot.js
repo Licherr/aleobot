@@ -18,6 +18,10 @@ var botConfigs = {
     weather: {"degree":"C"}
 };
 
+if(message.content.includes('ping')) {
+    message.reply('Pong');
+}
+
 var ops = {
   active: active
 }
