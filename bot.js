@@ -26,6 +26,24 @@ client.on('message', (message) => {
     if(message.content == 'Aleolakas') {
         message.reply('The fuck you say to me?!');
     }
+    if(message.content == 'Aleo wtf') {
+        message.reply('But Nigga~');
+    }
+    if(message.content == 'Why tho') {
+        message.reply('I am god');
+    }
+    if(message.content == 'Pats dick') {
+        message.reply('smol pp');
+    }	
+    if(message.content == 'Lich ass') {
+        message.reply('my come');
+    }
+    if(message.content == 'get aleo') {
+        message.reply('yeeeees nigga?');
+    }
+    if(message.content == 'Phos') {
+        message.reply('I am summoned');
+    }
 });
 
 client.on("ready", async function () {
