@@ -59,7 +59,9 @@ client.on('message', (message) => {
 	if(message.content == 'aleo lend me your power') {
         message.reply('$w');
     }
-
+	if(message.content == 'I have an idea') {
+        message.reply('whats your idea?');
+    }
 });
 
 client.on("ready", async function () {
