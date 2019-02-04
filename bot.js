@@ -23,20 +23,26 @@ var ops = {
 }
 
 client.on('message', (message) => {
-    if(message.content == 'Aleolakas') {
+    if(message.content == 'aleolakas') {
         message.reply('The fuck you say to me?!');
     }
-    if(message.content == 'Aleo wtf') {
+    if(message.content == 'aleo wtf') {
         message.reply('But Nigga~');
     }
-    if(message.content == 'Why tho') {
+    if(message.content == 'aleo wtf') {
+        message.reply('But Nigga~');
+    }
+    if(message.content == 'why tho') {
         message.reply('I am god');
+    }
+    if(message.content == 'pats dick') {
+        message.reply('smol pp');
     }
     if(message.content == 'Pats dick') {
         message.reply('smol pp');
     }	
-    if(message.content == 'Lich ass') {
-        message.reply('my come');
+    if(message.content == 'lich ass') {
+        message.reply('bitch ass');
     }
     if(message.content == 'get aleo') {
         message.reply('yeeeees nigga?');
@@ -44,6 +50,19 @@ client.on('message', (message) => {
     if(message.content == 'Phos') {
         message.reply('I am summoned');
     }
+    if(message.content == 'phos') {
+        message.reply('I am summoned');
+    }
+    if(message.content == 'pats dick') {
+        message.reply('"Pat has a small pengu"- Krxten 2018');
+    }
+    if(message.content == 'talk with monika') {
+        message.reply('Code nigga the code');
+    }
+    if(message.content == 'python') {
+        message.reply('"Nigga I eat that schlong');
+    }
+
 });
 
 client.on("ready", async function () {
