@@ -29,18 +29,12 @@ client.on('message', (message) => {
     if(message.content == 'aleo wtf') {
         message.reply('But Nigga~');
     }
-    if(message.content == 'aleo wtf') {
-        message.reply('But Nigga~');
-    }
     if(message.content == 'why tho') {
         message.reply('I am god');
     }
     if(message.content == 'pats dick') {
         message.reply('smol pp');
     }
-    if(message.content == 'Pats dick') {
-        message.reply('smol pp');
-    }	
     if(message.content == 'lich ass') {
         message.reply('bitch ass');
     }
