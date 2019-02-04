@@ -22,6 +22,12 @@ var ops = {
   active: active
 }
 
+client.on('message', (message) => {
+    if(message.content == 'Aleolakas') {
+        message.reply('The fuck you say to me?!');
+    }
+});
+
 client.on("ready", async function () {
   client.user.setActivity(botConfigs.gameStatus);
 });
@@ -501,9 +507,7 @@ client.on("message", async function (message) {
     });
     message.channel.send("Commands: " + allCommands);
   }
-  if(message.content.includes('Aleo')) {
-    message.reply('The fuck you say to me?');
-}
+ 
 });
 
 client.login(botConfigs.token);
