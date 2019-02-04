@@ -9,9 +9,9 @@ const ytdl = require('ytdl-core');
 const search = require('yt-search');
 const configs = require("./configs.json");
 var botConfigs = {
-    token: "NDgyMTE4MTM2NDczMzIxNDcy.Dzj33Q.D5ZxGGnMMYoFWJQJ7KNOvrBSrr0",
+    token: "NTQxNzk1Nzg1MDIxNTg3NDU2.DzkqUA.teEVWUTW8TXjaXSTc6NcQalTGgQ",
     prefix: "~",
-    gameStatus: "Rulling Hell",
+    gameStatus: "Ruling Hell",
     commands: [{"id":1,"command":"aleowtf","message":"BUT NIGGA!","embed":false},{"id":2,"command":"aleo wtf","message":"but NIGGA!","embed":false},{"id":3,"command":"patdicksize","message":"unknown libtard","embed":false},{"id":6,"command":"whythefuck","message":"Yes","embed":false},{"id":6,"command":"summonAleo","message":"@Aleolakas#8306","embed":false}],
     plugins: [{"id":0,"name":"Purge messages","activated":false,"config":"","info":{"example":"!purge 20","note":"","requirements":"Create a logs channel"}},{"id":1,"name":"Welcome message","activated":false,"config":"welcomemessage","info":{"example":"","note":"","requirements":"Create a channel"}},{"id":2,"name":"Kick user","activated":false,"config":"","info":{"example":"!kick @user spam","note":"","requirements":"Create a logs channel"}},{"id":3,"name":"Ban user","activated":false,"config":"","info":{"example":"!ban @user spam","note":"","requirements":"Create a logs channel"}},{"id":4,"name":"Report user","activated":false,"config":"","info":{"example":"!report @user spam","note":"","requirements":"Create a logs channel"}},{"id":5,"name":"Temp mute user","activated":false,"config":"","info":{"example":"!tempmute @user 10s","note":"s = seconds, m = minutes, h = hours","requirements":"Create a logs channel"}},{"id":6,"name":"Server info","activated":false,"config":"","info":{"example":"!serverinfo","note":"","requirements":""}},{"id":7,"name":"Weather info","activated":false,"config":"weather","info":{"example":"!weather Copenhagen","note":"","requirements":""}},{"id":8,"name":"Music - Export only","activated":false,"config":"","info":{"example":"!play {YouTube URL}, !leave, !pause, !resume, !queue, !skip","note":"Export only","requirements":""}},{"id":9,"name":"Channel lockdown","activated":false,"config":"","info":{"example":"!lockdown 10s","note":"s = seconds, m = minutes, h = hours","requirements":""}},{"id":10,"name":"Shutdown command","activated":false,"config":"","info":{"example":"!shutdown","note":"","requirements":""}},{"id":11,"name":"Banned words","activated":false,"config":"","info":{"example":"","note":"Auto delete messages contained banned words","requirements":""}}],
     welcomemessage: {"channelid":"","text":""},
@@ -60,7 +60,10 @@ client.on('message', (message) => {
         message.reply('Code nigga the code');
     }
     if(message.content == 'python') {
-        message.reply('"Nigga I eat that schlong');
+        message.reply('Nigga I eat that schlong');
+    }
+	if(message.content == 'aleo lend me your power') {
+        message.reply('$w');
     }
 
 });

@@ -1,11 +1,11 @@
 {
   "name": "discord-bot",
-  "productName": "Discord Bot - Controls",
+  "productName": "Aleowtf",
   "version": "0.1.0",
-  "description": "Discord Bot - Controls",
+  "description": "Aleo",
   "main": "bot.js",
   "author": {
-    "name": "Kasper Rasmussen"
+    "name": "Lich"
   },
   "scripts": {
     "start": "node bot"
